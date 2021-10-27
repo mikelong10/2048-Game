@@ -56,7 +56,6 @@ public class Board {
         {
             for (int c = 0; c < 4; c++)
             {
-//                System.out.println("[" + r + "][" + c + "]");
                 int boardValue = board[r][c].getValue();
                 int boardBelowValue = board[r + 1][c].getValue();
                 int boardAboveValue = 0;
@@ -118,7 +117,6 @@ public class Board {
         {
             for (int c = 0; c < 4; c++)
             {
-//                System.out.println("[" + r + "][" + c + "]");
                 int boardValue = board[r][c].getValue();
                 int boardAboveValue = board[r - 1][c].getValue();
                 int boardBelowValue = 0;
