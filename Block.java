@@ -3,7 +3,7 @@ import java.awt.*;
 public class Block {
 
     private Color color;
-    private int value, x, y, size, vx, vy;
+    private int value, x, y, size;
 
     public Block(Color color, int value, int x, int y, int size) {
         this.color = color;
